@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tactile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      header {
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        font-family: sans-serif;
+        color: white;
+        padding: 40px;
+      }
+      header .logo {
+        width: 10%;
+      }
+      header .menu {
+        width: 60%;
+        display: flex;
+        align-items: center;
+      }
+      header .search {
+        width: 10%;
+        display: flex;
+        gap: 15px;
+      }
+      header .menu ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+      header .menu ul a {
+        text-decoration: none;
+        color: white;
+        font-weight: 100;
+      }
+      header .menu ul a:active {
+        color: #ba9f10;
+      }
+      .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        padding: 30px;
+        line-height: 60px;
+      }
+
+      .main .text p {
+        color: #ba9f10;
+        font-style: italic;
+        letter-spacing: 3px;
+      }
+      .main .text h1 {
+        font-size: 50px;
+      }
+      button {
+        width: 150px;
+        height: 50px;
+        color: white;
+        background-color: #ba9f10;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="pet_mobile.png" alt="logo-website" width="100%" />
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#" style="color: #ba9f10">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">GALLERY</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <div class="text">
+        <p>Rockstar treatment for your pet</p>
+        <h1>
+          GROOMING WITH <br />
+          GENTLE CARE
+        </h1>
+        <button>CONTACT US</button>
+      </div>
+      <div class="image">
+        <img src="meo.jpg" alt="cat-picture" width="400px" />
+      </div>
+    </div>
+  </body>
+</html>
